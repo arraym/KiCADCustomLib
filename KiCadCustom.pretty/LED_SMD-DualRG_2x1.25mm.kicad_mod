@@ -1,4 +1,4 @@
-(module LED_SMD-DualRG_2x1.25mm (layer F.Cu) (tedit 5F8464E8)
+(module LED_SMD-DualRG_2x1.25mm (layer F.Cu) (tedit 5F84ACE4)
   (fp_text reference REF** (at 0 -1.7272) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -21,4 +21,9 @@
   (pad 2 smd rect (at -0.9 -0.475) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -0.9 0.475) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 0.9 0.475) (size 1.2 0.6) (layers F.Cu F.Paste F.Mask))
+  (model ${KICAD_WORKSPACE}/GlobalLibrary/3DAssets/APHBM2012.STEP
+    (offset (xyz 0 0 0.07000000000000001))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

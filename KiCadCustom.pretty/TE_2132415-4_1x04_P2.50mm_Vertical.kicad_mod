@@ -1,4 +1,4 @@
-(module TE_2132415-4_1x04_P2.50mm_Vertical (layer F.Cu) (tedit 5EC6A2EE)
+(module TE_2132415-4_1x04_P2.50mm_Vertical (layer F.Cu) (tedit 5F849A41)
   (fp_text reference REF** (at 0 -6.096) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -31,4 +31,9 @@
   (pad 2 thru_hole oval (at -1.25 0) (size 1.7 2) (drill 0.95) (layers *.Cu *.Mask))
   (pad 3 thru_hole oval (at 1.25 0) (size 1.7 2) (drill 0.95) (layers *.Cu *.Mask))
   (pad 4 thru_hole oval (at 3.75 0) (size 1.7 2) (drill 0.95) (layers *.Cu *.Mask))
+  (model ${KICAD_WORKSPACE}/GlobalLibrary/3DAssets/2132415-4.step
+    (offset (xyz 0 0 8.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )

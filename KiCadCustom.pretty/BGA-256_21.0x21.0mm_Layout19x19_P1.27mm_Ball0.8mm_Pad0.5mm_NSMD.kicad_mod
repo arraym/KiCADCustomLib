@@ -1,4 +1,4 @@
-(module BGA-256_21.0x21.0mm_Layout19x19_P1.27mm_Ball0.8mm_Pad0.5mm_NSMD (layer F.Cu) (tedit 5EFAD05D)
+(module BGA-256_21.0x21.0mm_Layout19x19_P1.27mm_Ball0.8mm_Pad0.5mm_NSMD (layer F.Cu) (tedit 5F8491F8)
   (descr "BGA-256, dimensions: https://www.xilinx.com/support/documentation/package_specs/ft256.pdf, design rules: https://www.xilinx.com/support/documentation/user_guides/ug1099-bga-device-design-rules.pdf")
   (tags BGA-256)
   (attr smd)
@@ -282,7 +282,7 @@
   (pad K16 smd circle (at 9.525 1.905) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask))
   (pad J16 smd circle (at 9.525 0.635) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask))
   (pad H16 smd circle (at 9.525 -0.635) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask))
-  (model D:/workspace/KiCad/GlobalLibrary/3DAssets/OSD3358-512M-BSM.STEP
+  (model ${KICAD_WORKSPACE}/GlobalLibrary/3DAssets/OSD3358-512M-BSM.STEP
     (offset (xyz 0 0 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

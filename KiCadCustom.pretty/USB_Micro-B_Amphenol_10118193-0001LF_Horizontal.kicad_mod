@@ -1,4 +1,4 @@
-(module USB_Micro-B_Amphenol_10118193-0001LF_Horizontal (layer F.Cu) (tedit 5DE77B34)
+(module USB_Micro-B_Amphenol_10118193-0001LF_Horizontal (layer F.Cu) (tedit 5F849AF5)
   (fp_text reference REF** (at 0 -4.445) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -68,4 +68,9 @@
     (zone_connect 0))
   (pad 6 thru_hole roundrect (at -3.3 0) (size 0.9 1.6) (drill oval 0.5 1.2) (layers *.Cu *.Mask) (roundrect_rratio 0.5)
     (zone_connect 0))
+  (model "${KICAD_WORKSPACE}/GlobalLibrary/3DAssets/User Library-10118193.STEP"
+    (offset (xyz -98 3.15 -0.35))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

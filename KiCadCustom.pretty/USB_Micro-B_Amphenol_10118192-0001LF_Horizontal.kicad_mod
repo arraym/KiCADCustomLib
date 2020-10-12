@@ -1,4 +1,4 @@
-(module USB_Micro-B_Amphenol_10118192-0001LF_Horizontal (layer F.Cu) (tedit 5EFB20B3)
+(module USB_Micro-B_Amphenol_10118192-0001LF_Horizontal (layer F.Cu) (tedit 5F849A7C)
   (fp_text reference REF** (at 0 -4.445) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -70,7 +70,7 @@
     (zone_connect 0))
   (pad 6 smd rect (at -3.8 0) (size 1.8 1.9) (layers F.Cu F.Paste F.Mask)
     (zone_connect 0))
-  (model D:/workspace/KiCad/GlobalLibrary/3DAssets/10118192-0001LF.step
+  (model ${KICAD_WORKSPACE}/GlobalLibrary/3DAssets/10118192-0001LF.step
     (offset (xyz -98 3.2 -0.3))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

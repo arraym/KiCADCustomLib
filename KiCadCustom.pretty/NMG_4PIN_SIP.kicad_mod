@@ -1,4 +1,4 @@
-(module NMG_4PIN_SIP (layer F.Cu) (tedit 5E390F33)
+(module NMG_4PIN_SIP (layer F.Cu) (tedit 5F84959C)
   (fp_text reference REF** (at 0 7.6835) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -17,4 +17,9 @@
   (pad 1 thru_hole circle (at -7.62 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -5.08 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 5.08 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  (model ${KICAD_WORKSPACE}/GlobalLibrary/3DAssets/NMG1224SC_3DModel.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

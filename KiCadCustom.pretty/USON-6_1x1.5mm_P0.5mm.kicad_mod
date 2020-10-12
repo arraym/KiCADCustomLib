@@ -1,4 +1,4 @@
-(module USON-6_1x1.5mm_P0.5mm (layer F.Cu) (tedit 5F02C2F8)
+(module USON-6_1x1.5mm_P0.5mm (layer F.Cu) (tedit 5F849B79)
   (descr "WSON6, http://www.ti.com/lit/ds/symlink/tlv702.pdf")
   (tags WSON6_1.5x1.5mm_P0.5mm)
   (attr smd)
@@ -28,7 +28,7 @@
   (pad 4 smd roundrect (at 0.3 0.5 270) (size 0.2 0.3) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 5 smd roundrect (at 0.3 0 270) (size 0.2 0.3) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 6 smd roundrect (at 0.3 -0.5 270) (size 0.2 0.3) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model D:/workspace/KiCad/GlobalLibrary/3DAssets/DRY0006A.stp
+  (model ${KICAD_WORKSPACE}/GlobalLibrary/3DAssets/DRY0006A.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

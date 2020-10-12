@@ -1,4 +1,4 @@
-(module BatteryHolder_Keystone_1052_1x2450 (layer F.Cu) (tedit 5E85A7D1)
+(module BatteryHolder_Keystone_1052_1x2450 (layer F.Cu) (tedit 5F849213)
   (descr http://www.keyelco.com/product-pdf.cfm?p=726)
   (tags "CR2032 BR2032 BatteryHolder Battery")
   (attr smd)

@@ -1,4 +1,4 @@
-(module 515-1011F (layer F.Cu) (tedit 5EC2CC3E)
+(module 515-1011F (layer F.Cu) (tedit 5F8490C6)
   (fp_text reference REF** (at 0 6.604) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -19,4 +19,9 @@
   (fp_line (start -1.905 -3.49) (end -5.36 -3.49) (layer F.Fab) (width 0.12))
   (pad "" np_thru_hole circle (at -3.89 0) (size 2.8 2.8) (drill 2.8) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 3.89 0) (size 2.8 2.8) (drill 2.8) (layers *.Cu *.Mask))
+  (model ${KICAD_WORKSPACE}/GlobalLibrary/3DAssets/LightPipe3DModel.step
+    (offset (xyz 0 -3.8 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )

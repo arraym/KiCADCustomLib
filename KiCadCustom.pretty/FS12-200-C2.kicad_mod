@@ -1,4 +1,4 @@
-(module FS12-200-C2 (layer F.Cu) (tedit 5E3C0889)
+(module FS12-200-C2 (layer F.Cu) (tedit 5F849496)
   (fp_text reference REF** (at 0 17.78) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -32,4 +32,9 @@
   (pad 6 thru_hole circle (at -3.3655 -15.24) (size 3.048 3.048) (drill 1.524) (layers *.Cu *.Mask))
   (pad 7 thru_hole circle (at 3.3655 -15.24) (size 3.048 3.048) (drill 1.524) (layers *.Cu *.Mask))
   (pad 8 thru_hole circle (at 10.0965 -15.24) (size 3.048 3.048) (drill 1.524) (layers *.Cu *.Mask))
+  (model ${KICAD_WORKSPACE}/GlobalLibrary/3DAssets/FS12-200-C2.STEP
+    (offset (xyz 0 0 16))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )
