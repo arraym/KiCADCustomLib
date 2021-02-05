@@ -1,4 +1,5 @@
-(module MEMS_MIC_BOTTOM (layer F.Cu) (tedit 5F87E4A3)
+(module MEMS_MIC_BOTTOM (layer F.Cu) (tedit 601D9F83)
+  (attr smd)
   (fp_text reference REF** (at 0 -3.4798) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
