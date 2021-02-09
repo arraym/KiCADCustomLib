@@ -1,4 +1,4 @@
-(module Board_To_Board_Right_Angle_4Pin_SMD (layer F.Cu) (tedit 60203890)
+(module Board_To_Board_Right_Angle_4Pin_SMD (layer F.Cu) (tedit 602293B0)
   (attr smd)
   (fp_text reference REF** (at 0 -2.54) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -31,7 +31,7 @@
   (pad 3 connect roundrect (at 0.635 0) (size 0.8 2) (layers F.Cu F.Mask) (roundrect_rratio 0.35))
   (pad 4 connect roundrect (at 1.905 0) (size 0.8 2) (layers F.Cu F.Mask) (roundrect_rratio 0.35))
   (model ${KIPRJMOD}/MicBoard.wrl
-    (at (xyz 0 0 0))
+    (offset (xyz -2.75 0 4))
     (scale (xyz 0.395 0.395 0.395))
     (rotate (xyz -90 0 0))
   )
