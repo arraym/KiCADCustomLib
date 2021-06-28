@@ -17,6 +17,12 @@ D Two-piece EMI RF shielding cabinet
 K EMI Shield
 $ENDCMP
 #
+$CMP TXS0108ERGY
+D Bidirectional  level-shifting voltage translator, TSSOP-20
+K 8-bit
+F www.ti.com/lit/ds/symlink/txs0108e.pdf
+$ENDCMP
+#
 $CMP USB_B_Mini
 D USB Mini Type B connector
 K connector USB mini
